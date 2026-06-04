@@ -1,0 +1,30 @@
+# Maven
+target/
+*.jar
+*.war
+*.class
+.mvn/
+
+# IDE
+.idea/
+*.iml
+*.iws
+.vscode/
+*.code-workspace
+
+# Env & secrets
+.env
+*.env
+config/google_credentials.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Docker volumes
+postgres_data/
+redis_data/
